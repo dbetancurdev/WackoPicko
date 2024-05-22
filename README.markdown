@@ -19,7 +19,7 @@ access wackopicko on your browser:
 [http://localhost:8080](http://localhost:8080).
 
 Note that Windows users might need some additional steps to do the
-port forwarding correctly. Google is your friend, use it well. 
+port forwarding correctly. Google and AI are your friends, use them well. 
 
 ## Virtual Machine
 
