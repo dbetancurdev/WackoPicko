@@ -1,6 +1,4 @@
 namespace: WackoPicko
-output:
-  format: SARIF
 working_dir: .
 language: ES
 strict: false
