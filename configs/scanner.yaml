@@ -1,7 +1,7 @@
 namespace: WackoPicko
 working_dir: .
 language: ES
-strict: false
+strict: true
 sast:
   include:
     - .
