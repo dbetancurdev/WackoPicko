@@ -2,8 +2,8 @@ namespace: WackoPicko
 output:
   format: SARIF
 working_dir: .
-language: EN
-strict: true
+language: ES
+strict: false
 sast:
   include:
     - .
