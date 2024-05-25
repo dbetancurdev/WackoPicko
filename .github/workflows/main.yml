@@ -9,5 +9,5 @@ jobs:
       - uses: docker://docker.io/fluidattacks/cli:latest
         name: machineStandalone
         with:
-          set-safe-directory: .
+          set-safe-directory: "*"
           args: skims scan ./configs/scanner.yaml
