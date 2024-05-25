@@ -1,0 +1,13 @@
+namespace: WackoPicko
+output:
+  format: SARIF
+working_dir: .
+language: EN
+strict: true
+sast:
+  include:
+    - .
+sca:
+  include:
+    - .
+  
