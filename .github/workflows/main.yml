@@ -9,3 +9,9 @@ jobs:
            name: machineStandalone
            with:
              args: skims scan ./config.yaml
+         - name: artifact
+           if: always()
+           uses: actions/upload-artifact@v3
+           with:
+               name: results
+               path: result.csv
