@@ -8,4 +8,10 @@ jobs:
          - uses: docker://docker.io/fluidattacks/cli:latest
            name: machineStandalone
            with:
-             args: skims --strict scan ./config.yaml
+             args: skims --strict scan ./config.yaml   
+         - name: artifact
+           if: always()
+           uses: actions/upload-artifact@v3
+           with:
+               name: results
+               path: results.csv
