@@ -1,4 +1,4 @@
-name: Standalone CLI
+name: Standalone Machine CLI
 on: [push, pull_request]
 jobs:
    machineStandalone:
